@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CPPPlatform
+comment1.params=
+comment1.target=CPPPlatform()
+comment2.params=code
+comment2.target=void\ execute(com.javacodegeeks.patterns.flyweightpattern.Code)
+numComments=3

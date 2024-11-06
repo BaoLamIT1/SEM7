@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Car
+comment1.params=product\ carType
+comment1.target=Car(Product,\ java.lang.String)
+comment2.params=
+comment2.target=void\ assemble()
+comment3.params=
+comment3.target=void\ produceProduct()
+comment4.params=
+comment4.target=void\ printDetails()
+numComments=5

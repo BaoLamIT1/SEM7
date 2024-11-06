@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=FileIOJob
+comment1.params=fileIO
+comment1.target=void\ setFileIO(FileIO)
+comment2.params=
+comment2.target=void\ run()
+numComments=3

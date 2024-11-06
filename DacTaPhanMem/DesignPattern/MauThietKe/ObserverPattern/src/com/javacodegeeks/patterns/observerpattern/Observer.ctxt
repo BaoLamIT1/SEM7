@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Observer
+comment1.params=desc
+comment1.target=void\ update(java.lang.String)
+comment2.params=
+comment2.target=void\ subscribe()
+comment3.params=
+comment3.target=void\ unSubscribe()
+numComments=4

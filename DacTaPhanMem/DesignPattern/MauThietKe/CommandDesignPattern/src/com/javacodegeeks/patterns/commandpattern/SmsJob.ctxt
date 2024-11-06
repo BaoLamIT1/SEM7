@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=SmsJob
+comment1.params=sms
+comment1.target=void\ setSms(Sms)
+comment2.params=
+comment2.target=void\ run()
+numComments=3

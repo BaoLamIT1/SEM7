@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=RomaTomatoes
+comment1.params=pizza
+comment1.target=RomaTomatoes(com.javacodegeeks.patterns.decoratorpattern.Pizza)
+comment2.params=
+comment2.target=java.lang.String\ getDesc()
+comment3.params=
+comment3.target=double\ getPrice()
+numComments=4

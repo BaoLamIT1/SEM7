@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=LoggingJob
+comment1.params=logging
+comment1.target=void\ setLogging(Logging)
+comment2.params=
+comment2.target=void\ run()
+numComments=3

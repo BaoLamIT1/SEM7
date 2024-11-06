@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CentralLocking
+comment1.params=productName
+comment1.target=CentralLocking(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ productName()
+comment3.params=
+comment3.target=void\ produce()
+numComments=4

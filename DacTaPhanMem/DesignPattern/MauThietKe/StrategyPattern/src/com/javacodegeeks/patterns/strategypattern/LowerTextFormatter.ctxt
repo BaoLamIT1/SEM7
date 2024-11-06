@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=LowerTextFormatter
+comment1.params=text
+comment1.target=void\ format(java.lang.String)
+numComments=2

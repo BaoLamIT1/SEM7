@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=BigWheel
+comment1.params=product\ carType
+comment1.target=BigWheel(Product,\ java.lang.String)
+comment2.params=
+comment2.target=void\ assemble()
+comment3.params=
+comment3.target=void\ produceProduct()
+numComments=4

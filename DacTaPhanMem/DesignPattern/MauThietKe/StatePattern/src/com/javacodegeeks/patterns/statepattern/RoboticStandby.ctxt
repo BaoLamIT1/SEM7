@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=RoboticStandby
+comment1.params=robot
+comment1.target=RoboticStandby(com.javacodegeeks.patterns.statepattern.Robot)
+comment2.params=
+comment2.target=void\ walk()
+comment3.params=
+comment3.target=void\ cook()
+comment4.params=
+comment4.target=void\ off()
+numComments=5

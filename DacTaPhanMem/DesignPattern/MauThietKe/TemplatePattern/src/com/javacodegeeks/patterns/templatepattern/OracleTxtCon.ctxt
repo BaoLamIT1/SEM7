@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=OracleTxtCon
+comment1.params=
+comment1.target=void\ setDBDriver()
+comment2.params=
+comment2.target=void\ setCredentials()
+comment3.params=
+comment3.target=void\ setData()
+numComments=4

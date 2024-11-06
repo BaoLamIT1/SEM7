@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=PlatformFactory
+comment1.params=
+comment1.target=PlatformFactory()
+comment2.params=platformType
+comment2.target=com.javacodegeeks.patterns.flyweightpattern.Platform\ getPlatformInstance(java.lang.String)
+numComments=3

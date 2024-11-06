@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=HtmlTag
+comment1.params=
+comment1.target=java.lang.String\ getTagName()
+comment2.params=tag
+comment2.target=void\ setStartTag(java.lang.String)
+comment3.params=tag
+comment3.target=void\ setEndTag(java.lang.String)
+comment4.params=tagBody
+comment4.target=void\ setTagBody(java.lang.String)
+comment5.params=htmlTag
+comment5.target=void\ addChildTag(com.javacodegeeks.patterns.compositepattern.HtmlTag)
+comment6.params=htmlTag
+comment6.target=void\ removeChildTag(com.javacodegeeks.patterns.compositepattern.HtmlTag)
+comment7.params=
+comment7.target=java.util.List\ getChildren()
+comment8.params=
+comment8.target=void\ generateHtml()
+numComments=9

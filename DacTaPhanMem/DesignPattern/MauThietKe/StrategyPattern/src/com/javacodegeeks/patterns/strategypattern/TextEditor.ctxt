@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=TextEditor
+comment1.params=textFormatter
+comment1.target=TextEditor(TextFormatter)
+comment2.params=text
+comment2.target=void\ publishText(java.lang.String)
+numComments=3
