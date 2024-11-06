@@ -14,4 +14,4 @@ Hệ thống các mẫu Design pattern hiện có 23 mẫu được định ngh�
 
 ![image](https://github.com/user-attachments/assets/bbd14869-8e39-4f05-aefe-882c5439d484)
 
-    <p1> gồm: Interpreter, Template Method, Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy và Visitor. Nhóm này dùng trong thực hiện các hành vi của đối tượng, sự giao tiếp giữa các object với nhau </p1>
+<p1> Gồm: Interpreter, Template Method, Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy và Visitor. Nhóm này dùng trong thực hiện các hành vi của đối tượng, sự giao tiếp giữa các object với nhau </p1>
