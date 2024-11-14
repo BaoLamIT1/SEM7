@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=VegetarianBurger
+comment1.params=
+comment1.target=java.lang.String\ getDescription()
+comment2.params=
+comment2.target=double\ getCost()
+numComments=3
