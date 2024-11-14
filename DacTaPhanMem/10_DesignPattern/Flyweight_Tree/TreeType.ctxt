@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=TreeType
+comment1.params=name\ color\ texture
+comment1.target=TreeType(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=x\ y
+comment2.target=void\ draw(int,\ int)
+numComments=3

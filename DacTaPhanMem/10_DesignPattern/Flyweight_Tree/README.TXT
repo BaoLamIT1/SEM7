@@ -1,0 +1,3 @@
+Giả sử chúng ta đang phát triển một trò chơi trong đó có rất nhiều loại cây được hiển thị trên màn hình (ví dụ: rừng với hàng ngàn cây). 
+Mỗi cây có một vị trí (x, y), nhưng tất cả các cây cùng loại có chung một hình ảnh và các thuộc tính khác. 
+Thay vì tạo ra hàng ngàn đối tượng cây với cùng thông tin hình ảnh, chúng ta có thể sử dụng mẫu Flyweight để chia sẻ các thuộc tính chung giữa các cây cùng loại.

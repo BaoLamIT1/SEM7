@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=TreeFactory
+comment1.params=name\ color\ texture
+comment1.target=TreeType\ getTreeType(java.lang.String,\ java.lang.String,\ java.lang.String)
+numComments=2
