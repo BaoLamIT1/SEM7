@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Triangle
+comment1.params=c
+comment1.target=Triangle(Color)
+comment2.params=
+comment2.target=void\ applyColor()
+numComments=3
