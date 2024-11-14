@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=AnimalFactory
+comment1.params=type
+comment1.target=Animal\ getAnimal(java.lang.String)
+numComments=2
