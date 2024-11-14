@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=OrderBuilderInterface
+comment1.params=paymentMethod
+comment1.target=OrderBuilderInterface\ setPaymentMethod(java.lang.String)
+comment2.params=deliveryOption
+comment2.target=OrderBuilderInterface\ setDeliveryOption(java.lang.String)
+comment3.params=productList
+comment3.target=OrderBuilderInterface\ setProductList(java.lang.String)
+comment4.params=
+comment4.target=Order\ build()
+numComments=5

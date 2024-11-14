@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=OrderBuilder
+comment1.params=orderId\ customer
+comment1.target=OrderBuilder(java.lang.String,\ Customer)
+comment10.params=
+comment10.target=java.lang.String\ getProductList()
+comment2.params=paymentMethod
+comment2.target=OrderBuilderInterface\ setPaymentMethod(java.lang.String)
+comment3.params=deliveryOption
+comment3.target=OrderBuilderInterface\ setDeliveryOption(java.lang.String)
+comment4.params=productList
+comment4.target=OrderBuilderInterface\ setProductList(java.lang.String)
+comment5.params=
+comment5.target=Order\ build()
+comment6.params=
+comment6.target=java.lang.String\ getOrderId()
+comment7.params=
+comment7.target=Customer\ getCustomer()
+comment8.params=
+comment8.target=java.lang.String\ getPaymentMethod()
+comment9.params=
+comment9.target=java.lang.String\ getDeliveryOption()
+numComments=11
