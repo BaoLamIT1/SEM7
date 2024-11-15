@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=LoadedState
+comment1.params=machine
+comment1.target=LoadedState(Dishwasher)
+comment2.params=
+comment2.target=void\ loadDishes()
+comment3.params=
+comment3.target=void\ startWashing()
+comment4.params=
+comment4.target=void\ completeCycle()
+comment5.params=
+comment5.target=void\ unloadDishes()
+numComments=6
