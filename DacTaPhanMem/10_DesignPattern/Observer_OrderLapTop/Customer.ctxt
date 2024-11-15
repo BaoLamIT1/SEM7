@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Customer
+comment1.params=name
+comment1.target=Customer(java.lang.String)
+comment2.params=message
+comment2.target=void\ update(java.lang.String)
+numComments=3

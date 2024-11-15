@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Observer
+comment1.params=message
+comment1.target=void\ update(java.lang.String)
+numComments=2
