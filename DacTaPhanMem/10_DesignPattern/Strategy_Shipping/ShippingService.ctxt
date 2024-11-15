@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ShippingService
+comment1.params=strategy
+comment1.target=ShippingService(ShippingCostStrategy)
+comment2.params=strategy
+comment2.target=void\ setStrategy(ShippingCostStrategy)
+comment3.params=weight\ distance
+comment3.target=double\ calculateShippingCost(double,\ double)
+numComments=4
