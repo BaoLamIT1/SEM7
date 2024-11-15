@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Mediator
+comment1.params=aircraft
+comment1.target=void\ registerAircraft(Aircraft)
+comment2.params=aircraft
+comment2.target=void\ notifyAircraftToLand(Aircraft)
+comment3.params=aircraft
+comment3.target=boolean\ canLand(Aircraft)
+comment4.params=
+comment4.target=void\ aircraftLanded()
+numComments=5
