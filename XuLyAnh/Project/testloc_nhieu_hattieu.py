@@ -18,7 +18,7 @@ img = cv2.imread('church.png', cv2.IMREAD_GRAYSCALE)
 noisy_img = add_pepper_noise(img, noise_level=0.05)
 
 # Biến đổi Fourier 2D
-dft = np.fft.fft2(noisy_mg)
+dft = np.fft.fft2(noisy_img)
 dft_shift = np.fft.fftshift(dft)
 
 # Kích thước ảnh
