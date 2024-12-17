@@ -1,0 +1,118 @@
+CREATE TABLE Users (
+  user_id INT NOT NULL AUTO_INCREMENT,
+  username VARCHAR(255) NOT NULL,
+  password VARCHAR(255) NOT NULL,
+  image text,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (user_id)
+);
+
+CREATE TABLE Level (
+  level_id INT NOT NULL,
+  level_name VARCHAR(255) NOT NULL,
+  description TEXT,
+  image text,
+  PRIMARY KEY (level_id)
+);
+
+CREATE TABLE Lessons (
+  lesson_id INT NOT NULL AUTO_INCREMENT,
+  lesson_name VARCHAR(255) NOT NULL,
+  content TEXT NOT NULL,
+  level_id INT,
+  PRIMARY KEY (lesson_id),
+  FOREIGN KEY (level_id) REFERENCES Level(level_id)
+);
+
+CREATE TABLE Vocabulary (
+  vocabulary_id INT NOT NULL AUTO_INCREMENT,
+  word VARCHAR(255) NOT NULL,
+  mean TEXT NOT NULL,
+  speak text,
+  type VARCHAR(100),
+  topic VARCHAR(100),
+  level_id INT,
+  PRIMARY KEY (vocabulary_id),
+  FOREIGN KEY (level_id) REFERENCES Level(level_id)
+);
+
+CREATE TABLE Tests (
+  test_id INT NOT NULL AUTO_INCREMENT,
+  score double,
+  level_id INT,
+  PRIMARY KEY (test_id),
+  FOREIGN KEY (level_id) REFERENCES Level(level_id)
+);
+
+CREATE TABLE Grammar (
+  grammar_id INT NOT NULL AUTO_INCREMENT,
+  title TEXT NOT NULL,
+  content TEXT NOT NULL,
+  level_id INT,
+  PRIMARY KEY (grammar_id),
+  FOREIGN KEY (level_id) REFERENCES Level(level_id)
+);
+
+CREATE TABLE QuestionVocab (
+  exVocab_id INT NOT NULL AUTO_INCREMENT,
+  title TEXT,
+  type VARCHAR(100),
+  answer TEXT,
+  PRIMARY KEY (exVocab_id)
+);
+
+CREATE TABLE Attendent (
+  date DATE NOT NULL,
+  duration INT NOT NULL,
+  PRIMARY KEY (date)
+);
+
+CREATE TABLE ExerciseVocab (
+  score double,
+  lesson_id INT,
+  exVocab_id INT,
+  PRIMARY KEY (lesson_id, exVocab_id),
+  FOREIGN KEY (lesson_id) REFERENCES Lessons(lesson_id),
+  FOREIGN KEY (exVocab_id) REFERENCES QuestionVocab(exVocab_id)
+);
+
+CREATE TABLE UserProgress (
+  date DATE NOT NULL,
+  user_id INT,
+  PRIMARY KEY (date, user_id),
+  FOREIGN KEY (date) REFERENCES Attendent(date),
+  FOREIGN KEY (user_id) REFERENCES Users(user_id)
+);
+
+CREATE TABLE UserLearnLesson (
+  user_id INT,
+  lesson_id INT,
+  PRIMARY KEY (user_id, lesson_id),
+  FOREIGN KEY (user_id) REFERENCES Users(user_id),
+  FOREIGN KEY (lesson_id) REFERENCES Lessons(lesson_id)
+);
+
+CREATE TABLE UserDoTest (
+  user_id INT,
+  test_id INT,
+  PRIMARY KEY (user_id, test_id),
+  FOREIGN KEY (user_id) REFERENCES Users(user_id),
+  FOREIGN KEY (test_id) REFERENCES Tests(test_id)
+);
+
+CREATE TABLE UserLearnGrammar (
+  user_id INT,
+  grammar_id INT,
+  PRIMARY KEY (user_id, grammar_id),
+  FOREIGN KEY (user_id) REFERENCES Users(user_id),
+  FOREIGN KEY (grammar_id) REFERENCES Grammar(grammar_id)
+);
+
+CREATE TABLE QuestionGrammar (
+  question_id INT NOT NULL AUTO_INCREMENT,
+  type VARCHAR(100),
+  answer TEXT,
+  grammar_id INT,
+  PRIMARY KEY (question_id),
+  FOREIGN KEY (grammar_id) REFERENCES Grammar(grammar_id)
+);
